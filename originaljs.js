@@ -64,19 +64,3 @@ function game() {
         return "You lost";
     }
 }
-
-
-let rockBtn = document.querySelector("#rock");
-rockBtn.addEventListener("click", function() {
-    playRound("Rock", computerPlay());
-});
-
-let paperBtn = document.querySelector("#paper");
-paperBtn.addEventListener("click", function() {
-    playRound("Paper", computerPlay());
-});
-
-let scissorsBtn = document.querySelector("#scissors");
-scissorsBtn.addEventListener("click", function() {
-    playRound("Scissors", computerPlay());
-});
